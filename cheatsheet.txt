@@ -1,0 +1,4 @@
+Create file / folder - a
+
+Delete all contents in file - dG
+Delete around double quote- da"
