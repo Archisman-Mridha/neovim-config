@@ -1,4 +1,14 @@
-Create file / folder - a
+Toggle windows - ctrl + w
 
+Toggle buffers - space + b + b
+Delete buffer - space + b + d
+
+Create file / folder - a
+Delete file / folder - d
+
+Jump to beginning of line - 0
+Jump to ending of line - $
+Delete line - dd
 Delete all contents in file - dG
 Delete around double quote- da"
+Enter insert mode - i
