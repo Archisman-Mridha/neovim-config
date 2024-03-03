@@ -1,14 +1,31 @@
+Change theme - space + uC
+
 Toggle windows - ctrl + w
 
-Toggle buffers - space + b + b
-Delete buffer - space + b + d
+Toggle buffers - space + bb
+Delete buffer - space + bd
 
 Create file / folder - a
 Delete file / folder - d
+Find files / folders - ff
+
+Telescope - space + space
+
+Undo - u
+Redo - ctrl + r
 
 Jump to beginning of line - 0
 Jump to ending of line - $
 Delete line - dd
+Jump to beginning of the file - gg
+Create new line and enter insert mode - o (after the current line) / O (before the current line)
 Delete all contents in file - dG
 Delete around double quote- da"
 Enter insert mode - i
+Delete word - dw (in normal mode) / ctrl + w (in insert mode)
+Comment / uncomment a line / selection - gcc
+Select mode - v
+Paste - v
+Select till matching character (like from opening till closing paranthesis) - v%
+
+New terminal - ctrl + /
