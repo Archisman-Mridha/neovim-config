@@ -1,3 +1,5 @@
+Enter normal mode from insert mode (temporarily) - ctrl + o
+
 Change theme - space + uC
 
 Toggle windows - ctrl + w
@@ -33,3 +35,5 @@ Paste - v (in normal mode) / ctrl + r* (in insert mode)
 Select till matching character (like from opening till closing paranthesis) - v%
 
 New terminal - ctrl + /
+
+Restore last session - space + ql
