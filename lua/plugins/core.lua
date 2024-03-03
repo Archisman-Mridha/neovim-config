@@ -8,5 +8,5 @@ return {
         floats = "transparent",
       },
     },
-  }
+  },
 }
