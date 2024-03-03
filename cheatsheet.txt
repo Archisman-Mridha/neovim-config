@@ -23,6 +23,7 @@ Delete all contents in file - dG
 Delete around double quote- da"
 Enter insert mode - i
 Delete word - dw (in normal mode) / ctrl + w (in insert mode)
+Delete letter - dl
 Comment / uncomment a line / selection - gcc
 Select mode - v
 Paste - v
