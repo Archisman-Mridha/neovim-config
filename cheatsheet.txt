@@ -20,6 +20,7 @@ Move forward by 1 word - w (jumps to beginning of the next word) / e (jumps to e
 Move backward by 1 word - b (jumps to beginning of the previous word) / ge (jumps to end of the previous word)
 Delete line - dd
 Jump to beginning of the file - gg
+Jump to end of the file - G
 Create new line and enter insert mode - o (after the current line) / O (before the current line)
 Delete all contents in file - dG
 Delete around double quote- da"
