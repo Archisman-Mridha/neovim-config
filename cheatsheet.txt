@@ -1,36 +1,52 @@
-Enter normal mode from insert mode (temporarily) - ctrl + o
-
 Change theme - space + uC
+
+// NOTE : Anatomy of a motion - Command + Count + Motion
+
+Create file / folder - a
+Delete file / folder - d
+Find files / folders - ff
+
+Open telescope - space + space
 
 Toggle windows - ctrl + w
 
 Toggle buffers - space + bb
 Delete buffer - space + bd
 
-Create file / folder - a
-Delete file / folder - d
-Find files / folders - ff
-
-Telescope - space + space
-
-Undo - u
-Redo - ctrl + r
-
-Jump to beginning of line - 0
+Jump to beginning of line - 0 (for first character) / _ (for first non-whitespace character)
 Jump to ending of line - $
 Move forward by 1 word - w (jumps to beginning of the next word) / e (jumps to end of the next word)
 Move backward by 1 word - b (jumps to beginning of the previous word) / ge (jumps to end of the previous word)
-Delete line - dd
 Jump to beginning of the file - gg
 Jump to end of the file - G
+Move forward to the next instance of the character - f( // NOTE : Repeat motion using , (for backwards movement) or ; (for forward movement)
+Move forward upto (right before but not on) the next instance of the character - t( // NOTE : Repeat using , (for backwards movement) or ; (for forward movement)
+Jump by half of the window height - ctrl + d (down) / ctrl + u (up)
+Bring current line to the view centre - zz
+Move by a paragraph - { (up) / } (down)
+
+If you want to search, type '/' and then type the search query. Use 'n' to go the next result / 'shift + n' to go to the previous result.
+Press '*' to automatically search using the word you're on as the query.
+
+Enter normal mode from insert mode (temporarily) - ctrl + o
+
+Undo - u
+Redo - ctrl + r
+Delete line - dd
 Create new line and enter insert mode - o (after the current line) / O (before the current line)
-Delete all contents in file - dG
-Delete around double quote- da"
-Enter insert mode - i
+Delete all contents in the file - dG
+Delete around the character - da"
+Enter insert mode - i (move to left side of the character you're currently on) / a (move to right side of the character you're currently on)
 Delete word - dw (in normal mode) / ctrl + w (in insert mode)
 Delete letter - dl
-Comment / uncomment a line / selection - gcc
-Select mode - v
+Toggle comment for a line / selection - gcc
+Go to the end of the line and enter insert mode - I
+Go to the end of the line and enter insert mode - A
+
+Copy line - yy
+Enter visual mode (for selecting) - v
+Enter line visual mode (for selecting) - shift + v
+Copy selected text (yank) - y // NOTE : Yanking and deleting goes to the same buffer
 Paste - v (in normal mode) / ctrl + r* (in insert mode)
 Select till matching character (like from opening till closing paranthesis) - v%
 
