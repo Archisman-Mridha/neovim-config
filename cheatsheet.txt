@@ -42,6 +42,7 @@ Delete letter - dl
 Toggle comment for a line / selection - gcc
 Go to the end of the line and enter insert mode - I
 Go to the end of the line and enter insert mode - A
+Delete from current to the first occurrence of the character - df_ / dt_ (upto / excluding '_')
 
 Copy line - yy
 Enter visual mode (for selecting) - v
